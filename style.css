@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.container h1 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+    border-bottom: 5px solid purple;
+}
+
+.box {
+    font-size: 25px;
+    margin: 10px;
+    padding: 6px;
+}
+
+input {
+    border-bottom: 2px solid purple;
+    background: none;
+    font-size: 23px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn:hover {
+    color: grey;
+}
